@@ -80,6 +80,12 @@ The ultimate goal for create a dymanic badge to display followers count like bel
 
 Do you want to contribute? If yes, please consider creating a web app to generate the markdown dynamically by taking a user input for the Peerlist username.
 
+## Behind the scenes :globe:
+
+Huge shoutout to [Shields.io](https://shields.io/) service for providing badges in the SVG format. :bow:
+
+![Deployed on Heroku](https://img.shields.io/badge/Deployed%20on%20Heroku-430098?style=flat&logo=heroku&logoColor=white)
+
 ## :hugs: Show some love!
 
 **Liked it?** :+1: If yes, help us spread the Peerlist `README` badge. :heart: <br>
