@@ -10,7 +10,7 @@
 
 **A [Peerlist profile](https://peerlist.io/vinitshahdeo) can be used as a simple resume or a complete portfolio to showcase your work. You can improve your `README.md` with an awesome Peerlist markdown badge.**
 
-Below are a few examples:
+:arrow_down: Below are a few examples:
 
 > **Warning** The author might be biased here, but you get the point! 😉
 
@@ -40,7 +40,7 @@ Additionally it supports the styles. **To use a different style**: Replace `flat
 ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo?style=flat-square)
 ```
 
-#### Available styles
+#### :traffic_light: Available styles
 
 | Type  | Badge  |
 |:---|:---|
@@ -61,7 +61,7 @@ Additionally it supports the styles. **To use a different style**: Replace `flat
 
 ## :running_man: How to run locally?
 
-### Setup
+### :arrow_right: Setup
 
 1. Install all depedencies
 ```bash
@@ -74,7 +74,7 @@ npm start
 
 > The above command will start a local server and listens on port 3000 for connections.
 
-### Run
+### :arrows_counterclockwise: Run
 
 Visit `http://localhost:3000/<your-peerlist-username>`
 
