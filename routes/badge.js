@@ -49,6 +49,7 @@ router.get('/', function(req, res, next) {
     peerlistBadgeURL = getBadgeURL(peerlistUsername);
 
     downloadBadge(peerlistBadgeURL).then((data) => {
+      res.setHeader('content-type', 'image/svg+xml;charset=utf-8');
       res.send(data);
     });
 });
