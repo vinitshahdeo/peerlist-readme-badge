@@ -85,11 +85,11 @@ The ultimate goal is to create a **dymanic markdown badge that displays Peerlist
 
 [![Twitter Follow @vinit_shahdeo](https://img.shields.io/twitter/follow/vinit_shahdeo?style=social)](https://twitter.com/Vinit_Shahdeo)
 
-## :octocat: Want to contribute?
+## :toolbox: Want to contribute?
 
 Do you want to pitch in? If so, please consider developing a web app that generates the markdown badge dynamically based on the Peerlist username entered by the user. There will be an option to copy the markdown text. You can take inspiration from the [Badges Generator](https://badgesgenerator.com/).
 
-## Behind the scenes :globe:
+## :construction: Behind the scenes
 
 Huge shoutout to [Shields.io](https://shields.io/) service for providing badges in the SVG format. :bow:
 
