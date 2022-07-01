@@ -7,7 +7,6 @@
 </div>
 
 <h1 align="center">Peerlist <code>README</code> Badge</h1>
-<br>
 
 **A [Peerlist profile](https://peerlist.io/vinitshahdeo) can be used as a simple resume or a complete portfolio to showcase your work. You can improve your `README.md` with an awesome Peerlist markdown badge.**
 
