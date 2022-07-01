@@ -18,6 +18,7 @@ Below are a few examples:
 | Peerlist User  | Badge  |
 |:---|:---|
 | [Akash Bhadange](https://peerlist.io/designerdada) | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/designerdada) |
+| [Pranjal Bareth](https://peerlist.io/pranjalbareth) | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/pranjalbareth) |
 | [Yogini Bende](https://peerlist.io/yogini)  | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/yogini) |
 | [Santosh Yadav](https://peerlist.io/santoshyadavdev) | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/santoshyadavdev) |
 | [Vinit Shahdeo](https://peerlist.io/vinitshahdeo) | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo)  |
