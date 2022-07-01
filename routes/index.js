@@ -8,7 +8,7 @@ const express = require('express'),
   PEERLIST_PROFILE_BASE_URL = 'https://peerlist.io'
 
   // returns the shields.io URL
-  getBadgeURL = (peerlistUsername, badgeStyle) => {
+  getBadgeURL = (peerlistUsername, badgeStyle = 'flat') => {
     const badgeURL = `${BASE_BADGE_URL}-${peerlistUsername}-brightgreen?logo=${logo}&color=${LABEL_COLOR}&style=${badgeStyle}`;
     return badgeURL;
   },
