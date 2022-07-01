@@ -11,6 +11,15 @@
 
 **A [Peerlist profile](https://peerlist.io/vinitshahdeo) can be used as a simple resume or a complete portfolio to showcase your work. You can improve your `README.md` with an awesome Peerlist markdown badge.**
 
+Below are a few examples:
+
+| Peerlist User  | Badge  |
+|:---|:---|
+| [Yogini Bende](https://peerlist.io/yogini)  | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/yogini) |
+| [Akash Bhadange](https://peerlist.io/designerdada) | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/designerdada) |
+| [Vinit Shahdeo](https://peerlist.io/vinitshahdeo) | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo)  |
+
+
 ## :electric_plug: How to use?
 
 Replace `vinitshahdeo` in the markdown with your Peerlist username. **Don't have a Peerlist profile yet, [get it here](https://peerlist.io/)!**
