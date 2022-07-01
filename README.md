@@ -103,4 +103,4 @@ Huge shoutout to [Shields.io](https://shields.io/) service for providing badges 
 **Did you like it?** :+1: If yes, please help us spread the Peerlist `README` badge. :heart: <br>
 Show your support by [leaving a star](https://github.com/vinitshahdeo/peerlist-readme-badge/stargazers) or sharing your thoughts on [Twitter @vinit_shahdeo](https://twitter.com/Vinit_Shahdeo).
 
-[![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo)](https://peerlist.io/vinitshahdeo)
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/vinitshahdeo)
