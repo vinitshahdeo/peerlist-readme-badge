@@ -23,7 +23,7 @@ Below are a few examples:
 | [Vinit Shahdeo](https://peerlist.io/vinitshahdeo) | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo)  |
 
 
-## :electric_plug: How to use?
+## :handshake: How to use?
 
 Replace `vinitshahdeo` in the markdown with your Peerlist username. **Get a [Peerlist profile here](https://peerlist.io/) if you don't have one already!**
 
