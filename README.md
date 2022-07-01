@@ -49,7 +49,7 @@ Additionally it supports the styles. **To use a different style**: Replace `flat
 
 <br>
 
-> **Note** It's always better to take advantage of linking the badge and link the badge to your Peerlist profile.
+> **Note** It's always better to use the `README` badge with a link to your Peerlist profile.
 
 ```md
 [![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo)](https://peerlist.io/vinitshahdeo)
@@ -60,15 +60,16 @@ Additionally it supports the styles. **To use a different style**: Replace `flat
 
 ### Setup
 
-Install node depedencies
+1. Install all depedencies
 ```bash
 npm i
 ```
-Start the express server
+2. Start the Express app
 ```bash
 npm start
 ```
-This will start your local server at `3000` port.
+
+> The above command will start a local server and listens on port 3000 for connections.
 
 ### Run
 
@@ -80,14 +81,13 @@ http://localhost:3000/vinitshahdeo
 
 ## :dart: What's next?
 
-The ultimate goal for create a dymanic badge to display followers count like below Twitter badge. The currently is this blocked on a public API to fetch the followers for a given Peerlist user.
+The ultimate goal is to create a **dymanic markdown badge that displays Peerlist followers count** similar to the Twitter badge shown below. This is currently blocked on a public API to fetch the followers for a Peerlist user.
 
 [![Twitter Follow @vinit_shahdeo](https://img.shields.io/twitter/follow/vinit_shahdeo?style=social)](https://twitter.com/Vinit_Shahdeo)
 
-
 ## :octocat: Want to contribute?
 
-Do you want to contribute? If yes, please consider creating a web app to generate the markdown dynamically by taking a user input for the Peerlist username.
+Do you want to pitch in? If so, please consider developing a web app that generates the markdown badge dynamically based on the Peerlist username entered by the user. There will be an option to copy the markdown text. You can take inspiration from the [Badges Generator](https://badgesgenerator.com/).
 
 ## Behind the scenes :globe:
 
@@ -97,7 +97,7 @@ Huge shoutout to [Shields.io](https://shields.io/) service for providing badges 
 
 ## :hugs: Show some love!
 
-**Liked it?** :+1: If yes, help us spread the Peerlist `README` badge. :heart: <br>
-Please share your feedback on Twitter ([@vinit_shahdeo](https://twitter.com/Vinit_Shahdeo)) or consider leaving a star! ⭐
+**Did you like it?** :+1: If yes, please help us spread the Peerlist `README` badge. :heart: <br>
+Show your support by [leaving a star](https://github.com/vinitshahdeo/peerlist-readme-badge/stargazers) or sharing your thoughts on [Twitter @vinit_shahdeo](https://twitter.com/Vinit_Shahdeo).
 
 [![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo)](https://peerlist.io/vinitshahdeo)
