@@ -9,8 +9,8 @@ const express = require('express'),
   PEERLIST_PROFILE_BASE_URL = 'https://peerlist.io'
 
   // returns the shields.io URL
-  getBadgeURL = (peerlistUsername) => {
-    const badgeURL = `${BASE_BADGE_URL}-${peerlistUsername}-brightgreen?link=${getProfileURL(peerlistUsername)}&logo=${logo}&color=${LABEL_COLOR}`;
+  getBadgeURL = (peerlistUsername, badgeStyle = 'flat') => {
+    const badgeURL = `${BASE_BADGE_URL}-${peerlistUsername}-brightgreen?link=${getProfileURL(peerlistUsername)}&logo=${logo}&color=${LABEL_COLOR}&style=${badgeStyle}`;
     return badgeURL;
   },
 
@@ -27,17 +27,17 @@ const express = require('express'),
     return svgXml;
   };
 
-
-
 /* 
 GET /api/:peerlist-username 
 */
 router.get('/:id', function(req, res, next) {
   const peerlistUsername = req.params.id,
-    peerlistBadgeURL = getBadgeURL(peerlistUsername);
+    badgeStyle = req.query.style,
+    peerlistBadgeURL = getBadgeURL(peerlistUsername, badgeStyle);
 
     downloadBadge(peerlistBadgeURL).then((data) => {
-        res.send(data);
+      res.setHeader('content-type', 'image/svg+xml;charset=utf-8');
+      res.send(data);
     });
 });
 

@@ -8,8 +8,8 @@ const express = require('express'),
   PEERLIST_PROFILE_BASE_URL = 'https://peerlist.io'
 
   // returns the shields.io URL
-  getBadgeURL = (peerlistUsername) => {
-    const badgeURL = `${BASE_BADGE_URL}-${peerlistUsername}-brightgreen?logo=${logo}&color=${LABEL_COLOR}`;
+  getBadgeURL = (peerlistUsername, badgeStyle) => {
+    const badgeURL = `${BASE_BADGE_URL}-${peerlistUsername}-brightgreen?logo=${logo}&color=${LABEL_COLOR}&style=${badgeStyle}`;
     return badgeURL;
   },
 
@@ -23,7 +23,8 @@ GET /:peerlist-username
 */
 router.get('/:id', function(req, res, next) {
   const peerlistUsername = req.params.id,
-    peerlistBadgeURL = getBadgeURL(peerlistUsername),
+    badgeStyle = req.query.style,
+    peerlistBadgeURL = getBadgeURL(peerlistUsername, badgeStyle),
     peerlistProfileURL = getProfileURL(peerlistUsername);
 
   res.render('index', { peerlistUsername, peerlistBadgeURL, peerlistProfileURL });
