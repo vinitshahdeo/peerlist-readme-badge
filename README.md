@@ -13,10 +13,13 @@
 
 Below are a few examples:
 
+> **Warning** The author might be biased here, but you get the point! 😉
+
 | Peerlist User  | Badge  |
 |:---|:---|
-| [Yogini Bende](https://peerlist.io/yogini)  | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/yogini) |
 | [Akash Bhadange](https://peerlist.io/designerdada) | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/designerdada) |
+| [Yogini Bende](https://peerlist.io/yogini)  | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/yogini) |
+| [Santosh Yadav](https://peerlist.io/santoshyadavdev) | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/santoshyadavdev) |
 | [Vinit Shahdeo](https://peerlist.io/vinitshahdeo) | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo)  |
 
 
