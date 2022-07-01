@@ -22,7 +22,7 @@ Below are a few examples:
 
 ## :electric_plug: How to use?
 
-Replace `vinitshahdeo` in the markdown with your Peerlist username. **Don't have a Peerlist profile yet, [get it here](https://peerlist.io/)!**
+Replace `vinitshahdeo` in the markdown with your Peerlist username. **Get a [Peerlist profile here](https://peerlist.io/) if you don't have one already!**
 
 ```md
 ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo)
@@ -49,7 +49,7 @@ Additionally it supports the styles. **To use a different style**: Replace `flat
 
 <br>
 
-> **Note** It's always better to use the `README` badge with a link to your Peerlist profile.
+> **Note** It's always preferable to include a link to your Peerlist profile in the `README` badge.
 
 ```md
 [![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo)](https://peerlist.io/vinitshahdeo)
