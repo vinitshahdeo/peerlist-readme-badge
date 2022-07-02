@@ -1,2 +1,4 @@
+title: Peerlist README Badge
 theme: jekyll-theme-leap-day
-gems: ["jemoji"]
+plugins:
+  - jemoji
