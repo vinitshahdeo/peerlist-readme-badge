@@ -20,6 +20,13 @@ const express = require('express'),
     return profileURL;
   },
 
+  // return beta social badge URL
+  // @todo: Ask Yogini for Peerlist public API
+  getBetaBadgeURL = (peerlistUsername) => {
+    const profileURL = `https://img.shields.io/badge/Peerlist%20@${peerlistUsername}-1.2k-brightgreen?logo=${logo}&style=social`;
+    return profileURL;
+  },
+
   // downloads badge in SVG
   downloadBadge = async (badgeURL) => {
     const response = await axios.get(badgeURL),
@@ -35,23 +42,24 @@ router.get('/:id', function(req, res, next) {
     badgeStyle = req.query.style,
     peerlistBadgeURL = getBadgeURL(peerlistUsername, badgeStyle);
 
-    downloadBadge(peerlistBadgeURL).then((data) => {
-      res.setHeader('content-type', 'image/svg+xml;charset=utf-8');
-      res.send(data);
-    });
+  downloadBadge(peerlistBadgeURL).then((data) => {
+    res.setHeader('content-type', 'image/svg+xml;charset=utf-8');
+    res.send(data);
+  }).catch(console.log);
 });
 
 /* 
 GET /api (default username: vinitshahdeo) 
 */
 router.get('/', function(req, res, next) {
-  const peerlistUsername = PEERLIST_DEFAULT_USERNAME,
-    peerlistBadgeURL = getBadgeURL(peerlistUsername);
+  const beta=req.query.beta,
+    peerlistUsername = PEERLIST_DEFAULT_USERNAME,
+    peerlistBadgeURL = beta ? getBetaBadgeURL(peerlistUsername) : getBadgeURL(peerlistUsername);
 
-    downloadBadge(peerlistBadgeURL).then((data) => {
-      res.setHeader('content-type', 'image/svg+xml;charset=utf-8');
-      res.send(data);
-    });
+  downloadBadge(peerlistBadgeURL).then((data) => {
+    res.setHeader('content-type', 'image/svg+xml;charset=utf-8');
+    res.send(data);
+  }).catch(console.log);
 });
 
 
