@@ -76,7 +76,7 @@ npm start
 
 ### :arrows_counterclockwise: Run
 
-Visit `http://localhost:3000/<your-peerlist-username>`
+Visit `http://localhost:3000/<peerlist-username>`
 
 ```bash
 http://localhost:3000/vinitshahdeo
