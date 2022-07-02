@@ -87,7 +87,7 @@ http://localhost:3000/vinitshahdeo
 |---|---|
 | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api?beta=true) | [![Twitter Follow @vinit_shahdeo](https://img.shields.io/twitter/follow/vinit_shahdeo?style=social)](https://twitter.com/Vinit_Shahdeo) |
 
-*<sup>The above badge is a dummy badge which can be retrieved using a query param: `beta=true` ⚠️</sup>* 
+*<sup>The above badge is dummy which can be retrieved using a query param: `beta=true` ⚠️</sup>* 
 
 The ultimate goal is to create a **dymanic markdown badge that displays Peerlist followers count** similar to the Twitter badge shown above. This is currently blocked on a public API to fetch the followers for a Peerlist user.
 
