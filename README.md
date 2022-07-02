@@ -44,7 +44,7 @@ Additionally it supports the styles. **To use a different style**: Replace `flat
 
 | Type  | Badge  |
 |:---|:---|
-| `flat` <br> *<sub>This is the default style.<sub>*  | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo) |
+| `flat` <br> <sub>This is the default style.<sub>  | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo) |
 | `flat-square`  | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo?style=flat-square)  |
 | `plastic`  | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo?style=plastic)  |
 | `social`  | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo?style=social)  |
@@ -88,7 +88,7 @@ The ultimate goal is to create a **dymanic markdown badge that displays Peerlist
 
 [![Twitter Follow @vinit_shahdeo](https://img.shields.io/twitter/follow/vinit_shahdeo?style=social)](https://twitter.com/Vinit_Shahdeo)
 
-## :toolbox: Want to contribute?
+## :rocket: Want to contribute?
 
 Do you want to pitch in? If so, please consider developing a web app that generates the markdown badge dynamically based on the Peerlist username entered by the user. There will be an option to copy the markdown text. You can take inspiration from the [Badges Generator](https://badgesgenerator.com/).
 
