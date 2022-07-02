@@ -12,8 +12,6 @@ Peerlist is a community of working professionals focused on building a personal 
 
 :arrow_down: Below are a few examples:
 
-> **Warning** The author might be biased here, but you get the point! 😉
-
 | Peerlist User  | Badge  |
 |:---|:---|
 | [Akash Bhadange](https://peerlist.io/designerdada) | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/designerdada) |
@@ -22,6 +20,7 @@ Peerlist is a community of working professionals focused on building a personal 
 | [Santosh Yadav](https://peerlist.io/santoshyadavdev) | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/santoshyadavdev) |
 | [Vinit Shahdeo](https://peerlist.io/vinitshahdeo) | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo)  |
 
+> **Warning** The author might be biased above, but you get the point! 😉
 
 ## :handshake: How to use?
 
