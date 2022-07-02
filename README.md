@@ -49,8 +49,6 @@ Additionally it supports the styles. **To use a different style**: Replace `flat
 | `social`  | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo?style=social)  |
 | `for-the-badge`  | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo?style=for-the-badge)  |
 
-<br>
-
 > **Note** It's always preferable to include a link to your Peerlist profile in the `README` badge.
 
 ```md
