@@ -72,7 +72,7 @@ npm i
 npm start
 ```
 
-> The above command will start a local server and listens on port 3000 for connections.
+> The above command will start a local server that listens on port `3000` for connections.
 
 ### :arrows_counterclockwise: Run
 
