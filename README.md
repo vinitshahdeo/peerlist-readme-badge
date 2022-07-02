@@ -98,7 +98,7 @@ Do you want to pitch in? If so, please consider developing a web app that genera
 
 ## :construction: Behind the scenes
 
-Huge shoutout to [Shields.io](https://shields.io/) service for providing badges in the SVG format. :bow:
+Huge shoutout to [Shields.io](https://shields.io/) service for providing badges in the SVG format. :bow: Thank you [@Peerlist](https://twitter.com/PeerlistHQ) for the logo.
 
 ![Deployed on Heroku](https://img.shields.io/badge/Deployed%20on%20Heroku-430098?style=flat&logo=heroku&logoColor=white)
 
