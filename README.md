@@ -87,7 +87,7 @@ http://localhost:3000/vinitshahdeo
 
 *<sup>The above badge is dummy which can be retrieved using a query param: `beta=true` ⚠️</sup>* 
 
-The ultimate goal is to create a **dymanic markdown badge that displays Peerlist followers count** similar to the Twitter badge shown above. This is currently blocked on a public API to fetch the followers for a Peerlist user.
+The ultimate goal is to create a **dynamic markdown badge that displays Peerlist followers count** similar to the Twitter badge shown above. This is currently blocked on a public API to fetch the followers for a Peerlist user.
 
 ## :rocket: Want to contribute?
 
