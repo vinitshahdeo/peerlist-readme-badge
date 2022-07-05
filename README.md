@@ -101,7 +101,11 @@ Huge shoutout to [Shields.io](https://shields.io/) service for providing badges 
 
 ## :hugs: Show some love!
 
-**Did you like it?** :+1: If yes, please help me spread the Peerlist `README` badge. :heart: <br>
+**Did you like it?** :+1: If yes, please help me spread the Peerlist `README` badge. :green_heart: <br>
+
+
+![](./public/images/tweet.png)
+
 Show your support by [leaving a star](https://github.com/vinitshahdeo/peerlist-readme-badge/stargazers) or sharing your thoughts on [Twitter @vinit_shahdeo](https://twitter.com/Vinit_Shahdeo).
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/vinitshahdeo)
