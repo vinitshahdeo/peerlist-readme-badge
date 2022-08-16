@@ -93,6 +93,12 @@ The ultimate goal is to create a **dynamic markdown badge that displays Peerlist
 
 Do you want to pitch in? If so, please consider developing a web app that generates the markdown badge dynamically based on the Peerlist username entered by the user. There will be an option to copy the markdown text. You can take inspiration from the [Badges Generator](https://badgesgenerator.com/).
 
+### Social Summer Of Code (SSoC)
+
+This project is shortlisted for a three-months-long Open Source Program([Social Summer Of Code](https://ssoc.devfolio.co/)) Organized By Social in order to promote open source with new age technologies & help beginners to kickstart their open-source journey. Please get started by introducing yourself [here](https://github.com/vinitshahdeo/peerlist-readme-badge/discussions/6).
+
+> **Please refer to [SSoC.md](./SSoC.md) to get started.**
+
 ## :construction: Behind the scenes
 
 Huge shoutout to [Shields.io](https://shields.io/) service for providing badges in the SVG format. :bow: Thank you [Pranjal](https://peerlist.io/pranjalbareth) for designing the poster.
