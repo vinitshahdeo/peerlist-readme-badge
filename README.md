@@ -103,6 +103,8 @@ This project is shortlisted for a three-months-long Open Source Program([Social 
 
 A heartfelt thanks to the Peerlist team for adding this as a tool in their official platform: [peerlist.io/tools/readme-badge](https://peerlist.io/tools/readme-badge)
 
+![](./public/images/peerlist-tools.png)
+
 ## :construction: Behind the scenes
 
 Huge shoutout to [Shields.io](https://shields.io/) service for providing badges in the SVG format. :bow: Thank you [Pranjal](https://peerlist.io/pranjalbareth) for designing the poster.
