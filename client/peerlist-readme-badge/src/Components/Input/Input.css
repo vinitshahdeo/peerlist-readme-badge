@@ -1,0 +1,22 @@
+.InputContainer{
+  border: 1px solid #a1a5a8;
+  border-radius: 0.25rem;
+  width: 100%;
+  transition: border 0.15s ease-in-out;
+}
+.InputContainer:focus-within{
+  border-color: black;
+}
+
+.InputContainer__Label{
+    font-size: 0.75rem;
+    color: #a1a5a8;
+    padding: .375rem 0.5rem 0.5rem;
+    user-select: none;
+    cursor: auto;
+}
+
+.InputContainer_Input{
+    width: 100%;
+    padding: .375rem 0.5rem 0.5rem;
+}
