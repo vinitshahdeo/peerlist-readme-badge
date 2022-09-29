@@ -28,6 +28,30 @@
 
 .FormContainer__Select{
   margin-block: .625rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.FormContainer__ButtonWrapper{
+  display: grid;
+  place-items: center;
+}
+
+
+.FormContainer__Button{
+  margin-top: calc(.625rem * 2);
+  background-color: rgb(0, 170, 69);
+  color: white;
+  letter-spacing: 0.1em;
+  padding:0.75rem .625rem;
+  border-radius: .25rem;
+  user-select: none;
+  width: 100%;
+  text-align: center;
+}
+
+.FormContainer__Button:hover{
+  cursor: pointer;
+  background-color: rgba( 0, 170, 69,0.8);
 }
 
 

@@ -22,11 +22,13 @@ const customStyles = {
   }),
   option: (provided, state) => ({
     ...provided,
-    backgroundColor: state.isSelected ? "black" : "white",
+    backgroundColor: state.isSelected ? "#f6f8fa" : "white",
+    color: state.isSelected ? "black" : "",
     "&:hover": {
       ...provided,
-      backgroundColor: state.isSelected ? "black" : "black",
-      color: "white",
+      backgroundColor: state.isSelected ? "#f6f8fa" : "#f6f8fa",
+      color: state.isSelected ? "black" : "",
+      cursor: "pointer",
     },
   }),
   menu: (provided) => ({
@@ -35,17 +37,20 @@ const customStyles = {
   }),
 };
 
-const CustomSelect = ({ options, label, placeholder }) => {
+const CustomSelect = ({ options, label, placeholder, setFormState }) => {
   return (
     <div className="SelectContainer">
       <label className="SelectContainer__Label">{label}</label>
       <Select
-        defaultValue={options[0].value}
+        defaultValue={options[0]}
         options={options}
         placeholder={placeholder}
         styles={customStyles}
         isSearchable={false}
         theme={customTheme}
+        onChange={({ value }) => {
+          setFormState((prev) => ({ ...prev, selectValue: value }));
+        }}
       />
     </div>
   );
