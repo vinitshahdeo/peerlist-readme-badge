@@ -1,6 +1,6 @@
 import "./App.css";
 import Input from "./Components/Input/Input";
-import Select from "react-select";
+import CustomSelect from "./Components/CustomSelect/CustomSelect";
 
 const options = [
   { value: "flat", label: "flat" },
@@ -18,7 +18,7 @@ function App() {
       <div className="FormContainer">
         <form>
           <Input label="Name" />
-          <Select options={options} className="FormContainer__Select" />
+          <CustomSelect label="Style" options={options} placeholder="Select" />
           <button>Generate</button>
         </form>
       </div>
