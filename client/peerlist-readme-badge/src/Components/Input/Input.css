@@ -4,6 +4,7 @@
   width: 100%;
   transition: border 0.15s ease-in-out;
 }
+
 .InputContainer:focus-within{
   border-color: black;
 }
