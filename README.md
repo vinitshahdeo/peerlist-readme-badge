@@ -115,7 +115,7 @@ Huge shoutout to [Shields.io](https://shields.io/) service for providing badges 
 
 **Did you like it?** :+1: If yes, please help me spread the Peerlist `README` badge. :green_heart: <br>
 
-<img src="./public/images/tweet.png" width="250px" height="250px" />
+<a href="https://twitter.com/Vinit_Shahdeo"><img src="./public/images/peerlist-tweet.png" width="35%" height="35%" /></a>
 
 Show your support by [leaving a star](https://github.com/vinitshahdeo/peerlist-readme-badge/stargazers) or sharing your thoughts on [Twitter @vinit_shahdeo](https://twitter.com/Vinit_Shahdeo).
 
