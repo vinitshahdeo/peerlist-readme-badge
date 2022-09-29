@@ -2,6 +2,7 @@ import "./App.css";
 import Input from "./Components/Input/Input";
 import CustomSelect from "./Components/CustomSelect/CustomSelect";
 import { useState } from "react";
+import Results from "./Components/Results/Results";
 
 const options = [
   { value: "flat", label: "flat" },
@@ -11,16 +12,25 @@ const options = [
   { value: "for-the-badge", label: "for-the-badge" },
 ];
 
+const initialFormState = {
+  nameValue: "",
+  selectValue: options[0].value,
+};
+
 function App() {
-  
-  const [formState, setFormState] = useState({
-    nameValue: "",
-    selectValue: options[0].value,
-  });
+  const [formState, setFormState] = useState(initialFormState);
+  const [isSubmitted, setIsSubmitted] = useState(false);
+  const [badgeUrl, setBadgeUrl] = useState(
+    `https://peerlist-readme-badge.herokuapp.com/api/${formState.nameValue}?style=${formState.selectValue}`
+  );
 
   const onSubmit = (e) => {
     e.preventDefault();
-    console.log(formState);
+    setBadgeUrl(
+      (prev) =>
+        (prev = `https://peerlist-readme-badge.herokuapp.com/api/${formState.nameValue}?style=${formState.selectValue}`)
+    );
+    setIsSubmitted(true);
   };
 
   return (
@@ -34,6 +44,7 @@ function App() {
             value={formState.nameValue}
             setFormState={setFormState}
             inputId="name"
+            isRequired
           />
           <CustomSelect
             label="Style"
@@ -47,6 +58,7 @@ function App() {
           </div>
         </form>
       </div>
+      {isSubmitted && <Results badgeUrl={badgeUrl} />}
     </main>
   );
 }
