@@ -105,7 +105,11 @@ npm run start
 
 ## :rocket: Want to contribute?
 
+[![GitHub issues](https://img.shields.io/github/issues/vinitshahdeo/peerlist-readme-badge?logo=github)](https://github.com/vinitshahdeo/peerlist-readme-badge/issues) [![GitHub pull requests](https://img.shields.io/github/issues-pr-closed/vinitshahdeo/peerlist-readme-badge?logo=github&color=green)](https://github.com/vinitshahdeo/peerlist-readme-badge/pulls)
+
 Do you want to pitch in? If so, please consider developing a web app that generates the markdown badge dynamically based on the Peerlist username entered by the user. There will be an option to copy the markdown text. You can take inspiration from the [Badges Generator](https://badgesgenerator.com/).
+
+> Check out open issues [here](https://github.com/vinitshahdeo/peerlist-readme-badge/issues). These are beginner-friendly issues for the participants of [Hacktoberfest'22](https://hacktoberfest.com/).
 
 ### Social Summer Of Code (SSoC)
 
