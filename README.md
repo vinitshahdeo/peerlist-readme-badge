@@ -89,6 +89,20 @@ http://localhost:3000/vinitshahdeo
 
 The ultimate goal is to create a **dynamic markdown badge that displays Peerlist followers count** similar to the Twitter badge shown above. This is currently blocked on a public API to fetch the followers for a Peerlist user.
 
+## :link: Online Badge Generator
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0988f5ca-a884-4372-9b13-fd725fdb9dd6/deploy-status)](https://app.netlify.com/sites/peerlist-readme-badge/deploys)
+
+Try it out here: [peerlist-readme-badge.netlify.app](https://peerlist-readme-badge.netlify.app)
+
+**Build locally** :point_down:
+
+```sh
+git checkout feature/web-app
+npm install
+npm run start
+```
+
 ## :rocket: Want to contribute?
 
 Do you want to pitch in? If so, please consider developing a web app that generates the markdown badge dynamically based on the Peerlist username entered by the user. There will be an option to copy the markdown text. You can take inspiration from the [Badges Generator](https://badgesgenerator.com/).
