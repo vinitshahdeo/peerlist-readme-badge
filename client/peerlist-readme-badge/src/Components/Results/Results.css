@@ -1,0 +1,14 @@
+.ResultsContainer{
+    margin-top: calc(.625rem * 4);
+    width: min(95%,750px);
+}
+
+.ResultsContainer__ImageWrapper{
+   width: 100%;
+   display: grid;
+   place-items: center;
+}
+
+.ResultsContainer > img{
+    margin-inline:auto ;
+}

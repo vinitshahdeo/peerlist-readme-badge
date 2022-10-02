@@ -1,5 +1,3 @@
-![](./public/images/peerlist-cover.jpg)
-
 <div align="center">
   <a href="https://peerlist.io/vinitshahdeo">
     <img src="https://peerlist-readme-badge.herokuapp.com/api"/>
@@ -8,7 +6,9 @@
 
 <h1 align="center">Peerlist <code>README</code> Badge</h1>
 
-Peerlist is a community of working professionals focused on building a personal brand, sharing professional content, and finding peers to collaborate with. **A [Peerlist profile](https://peerlist.io/vinitshahdeo) can be used as a simple resume or a complete portfolio to showcase your work. You can style your `README.md` with an awesome Peerlist markdown badge.**
+![](./public/images/vinitshahdeo-peerlist-profile-cover.png)
+
+Peerlist is a community of working professionals focused on building a personal brand, sharing professional content, and finding peers to collaborate with. **A [Peerlist profile](https://peerlist.io/vinitshahdeo) can be used as a simple resume or a complete portfolio to showcase your work. You can style your `README.md` with an awesome Peerlist markdown badge.** This has now been integrated into the official Peerlist platform, **try it out here: [peerlist.io/tools/readme-badge](https://peerlist.io/tools/readme-badge)**
 
 :arrow_down: Below are a few examples:
 
@@ -99,6 +99,12 @@ This project is shortlisted for a three-months-long Open Source Program([Social 
 
 > **Please refer to [SSoC.md](./SSoC.md) to get started.**
 
+## Gratitude :heart:
+
+A heartfelt thanks to the Peerlist team for adding this as a tool in their official platform: [peerlist.io/tools/readme-badge](https://peerlist.io/tools/readme-badge)
+
+![](./public/images/peerlist-tools.png)
+
 ## :construction: Behind the scenes
 
 Huge shoutout to [Shields.io](https://shields.io/) service for providing badges in the SVG format. :bow: Thank you [Pranjal](https://peerlist.io/pranjalbareth) for designing the poster.
@@ -109,7 +115,9 @@ Huge shoutout to [Shields.io](https://shields.io/) service for providing badges 
 
 **Did you like it?** :+1: If yes, please help me spread the Peerlist `README` badge. :green_heart: <br>
 
-<img src="./public/images/tweet.png" width="250px" height="250px" />
+## :blue_heart: Wall of Love 
+
+<a href="https://twitter.com/Vinit_Shahdeo/status/1543485188734234624"><img src="./public/images/peerlist-tweet.png" width="45%" height="45%" /></a> <a href="https://twitter.com/Vinit_Shahdeo/status/1543485188734234624"><img src="./public/images/peerlist-tweet-1.png" width="45%" height="45%" /></a> <br><a href="https://twitter.com/Vinit_Shahdeo/status/1543485188734234624"><img src="./public/images/peerlist-tweet-4.png" width="45%" height="45%" /></a> <a href="https://twitter.com/Vinit_Shahdeo/status/1543485188734234624"><img src="./public/images/peerlist-tweet-3.png" width="45%" height="45%" /></a> 
 
 Show your support by [leaving a star](https://github.com/vinitshahdeo/peerlist-readme-badge/stargazers) or sharing your thoughts on [Twitter @vinit_shahdeo](https://twitter.com/Vinit_Shahdeo).
 
