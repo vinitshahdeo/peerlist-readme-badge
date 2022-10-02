@@ -99,6 +99,7 @@ Try it out here: [peerlist-readme-badge.netlify.app](https://peerlist-readme-bad
 
 ```sh
 git checkout feature/web-app
+cd client/peerlist-readme-badge
 npm install
 npm run start
 ```
