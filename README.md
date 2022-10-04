@@ -118,7 +118,7 @@ Do you want to pitch in? If so, please consider developing a web app that genera
 
 As [Hacktoberfest'22](https://hacktoberfest.com/) is here, I have opened a few [beginner-friendly issues](https://github.com/vinitshahdeo/peerlist-readme-badge/issues) for newbies to get them started with open-source. Feel free to **open an issue**, **raise a pull request** or spread a word about the **[first-timers issues](https://github.com/vinitshahdeo/peerlist-readme-badge/issues)** opened here.
 
-![Twitter URL](https://img.shields.io/twitter/url?label=Tweet%20to%20spread%20a%20word&logo=twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fintent%2Ftweet%3Furl%3Dhttps%253A%252F%252Fgithub.com%252Fvinitshahdeo%252Fpeerlist-readme-badge%252Fissues%26via%3Dvinit_shahdeo%26text%3DHere%2527re%2520a%2520few%2520beginner-friendly%2520issues%26hashtags%3DHacktoberfest%252C%2520opensource%252C%2520hacktoberfest2022%252C%2520yourfirstPR)
+[![Twitter URL](https://img.shields.io/twitter/url?label=Tweet%20to%20spread%20a%20word&logo=twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fintent%2Ftweet%3Furl%3Dhttps%253A%252F%252Fgithub.com%252Fvinitshahdeo%252Fpeerlist-readme-badge%252Fissues%26via%3Dvinit_shahdeo%26text%3DHere%2527re%2520a%2520few%2520beginner-friendly%2520issues%26hashtags%3DHacktoberfest%252C%2520opensource%252C%2520hacktoberfest2022%252C%2520yourfirstPR)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fvinitshahdeo%2Fpeerlist-readme-badge&via=vinit_shahdeo&text=Here%27re%20a%20few%20beginner-friendly%20issues&hashtags=Hacktoberfest%2C%20opensource%2C%20hacktoberfest2022%2C%20yourfirstPR)
 
 ### Social Summer Of Code (SSoC)
 
