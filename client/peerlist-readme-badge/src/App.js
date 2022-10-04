@@ -3,6 +3,7 @@ import Input from "./Components/Input/Input";
 import CustomSelect from "./Components/CustomSelect/CustomSelect";
 import { useState } from "react";
 import Results from "./Components/Results/Results";
+import InputUsername from "./Components/InputUsername/InputUsername";
 
 const options = [
   { value: "flat", label: "flat" },
@@ -15,14 +16,19 @@ const options = [
 const initialFormState = {
   nameValue: "",
   selectValue: options[0].value,
+  peerlistUsername: ""
 };
 
 function App() {
   const [formState, setFormState] = useState(initialFormState);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isChecked, setIsChecked] = useState(false)
   const [badgeUrl, setBadgeUrl] = useState(
     `https://peerlist-readme-badge.herokuapp.com/api/${formState.nameValue}?style=${formState.selectValue}`
   );
+  const [linkProfile, setLinkProfile] = useState(
+    `https://peerlist.io/${formState.peerlistUsername}`
+  )
 
   const onSubmit = (e) => {
     e.preventDefault();
@@ -30,6 +36,12 @@ function App() {
       (prev) =>
         (prev = `https://peerlist-readme-badge.herokuapp.com/api/${formState.nameValue}?style=${formState.selectValue}`)
     );
+    if(isChecked){
+      setLinkProfile(
+        (prev) =>
+          (prev = `https://peerlist.io/${formState.peerlistUsername}`)
+      )
+    }
     setIsSubmitted(true);
   };
 
@@ -53,12 +65,35 @@ function App() {
             setFormState={setFormState}
             options={options}
           />
+          <div className="FormContainer__CheckboxWrapper">
+            <label>
+              <input 
+                type="checkbox"
+                checked={isChecked}
+                onChange={() => setIsChecked((prev) => !prev)}
+                className={isChecked ? "checked" : ""}
+              />
+              <span>Link to Peerlist profile</span>
+            </label>
+          </div>
+          {
+            isChecked && 
+              <InputUsername 
+                value={formState.peerlistUsername}
+                setFormState={setFormState}
+              />
+          }
           <div className="FormContainer__ButtonWrapper">
             <button className="FormContainer__Button">Generate</button>
           </div>
         </form>
       </div>
-      {isSubmitted && <Results badgeUrl={badgeUrl} />}
+      {isSubmitted && 
+        <Results 
+          badgeUrl={badgeUrl} 
+          linkProfile={linkProfile} 
+          isLinkToPeerlist={isChecked} 
+        />}
     </main>
   );
 }

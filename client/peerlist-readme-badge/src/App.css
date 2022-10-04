@@ -31,6 +31,10 @@
   font-family: 'Inter', sans-serif;
 }
 
+.FormContainer__CheckboxWrapper{
+  margin-top: .625rem;
+}
+
 .FormContainer__ButtonWrapper{
   display: grid;
   place-items: center;
@@ -53,5 +57,3 @@
   cursor: pointer;
   background-color: rgba( 0, 170, 69,0.8);
 }
-
-
