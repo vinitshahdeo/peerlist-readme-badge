@@ -1,9 +1,9 @@
-import "./App.css";
-import Input from "./Components/Input/Input";
-import CustomSelect from "./Components/CustomSelect/CustomSelect";
 import { useState } from "react";
-import Results from "./Components/Results/Results";
+import "./App.css";
+import CustomSelect from "./Components/CustomSelect/CustomSelect";
+import Input from "./Components/Input/Input";
 import InputUsername from "./Components/InputUsername/InputUsername";
+import Results from "./Components/Results/Results";
 
 const options = [
   { value: "flat", label: "flat" },
@@ -16,19 +16,17 @@ const options = [
 const initialFormState = {
   nameValue: "",
   selectValue: options[0].value,
-  peerlistUsername: ""
+  peerlistUsername: "",
 };
 
 function App() {
   const [formState, setFormState] = useState(initialFormState);
   const [isSubmitted, setIsSubmitted] = useState(false);
-  const [isChecked, setIsChecked] = useState(false)
+  const [isChecked, setIsChecked] = useState(false);
   const [badgeUrl, setBadgeUrl] = useState(
     `https://peerlist-readme-badge.herokuapp.com/api/${formState.nameValue}?style=${formState.selectValue}`
   );
-  const [linkProfile, setLinkProfile] = useState(
-    `https://peerlist.io/${formState.peerlistUsername}`
-  )
+  const [linkProfile, setLinkProfile] = useState(`https://peerlist.io/${formState.peerlistUsername}`);
 
   const onSubmit = (e) => {
     e.preventDefault();
@@ -36,13 +34,17 @@ function App() {
       (prev) =>
         (prev = `https://peerlist-readme-badge.herokuapp.com/api/${formState.nameValue}?style=${formState.selectValue}`)
     );
-    if(isChecked){
-      setLinkProfile(
-        (prev) =>
-          (prev = `https://peerlist.io/${formState.peerlistUsername}`)
-      )
+    if (isChecked) {
+      setLinkProfile((prev) => (prev = `https://peerlist.io/${formState.peerlistUsername}`));
     }
     setIsSubmitted(true);
+  };
+
+  const onSelectValueChange = ({ value }) => {
+    if (isSubmitted) {
+      setBadgeUrl(`https://peerlist-readme-badge.herokuapp.com/api/${formState.nameValue}?style=${value}`);
+    }
+    setFormState((prev) => ({ ...prev, selectValue: value }));
   };
 
   return (
@@ -51,23 +53,17 @@ function App() {
       <h1 className="MainContainer__SubTitle">for README.md</h1>
       <div className="FormContainer">
         <form onSubmit={onSubmit}>
-          <Input
-            label="Name"
-            value={formState.nameValue}
-            setFormState={setFormState}
-            inputId="name"
-            isRequired
-          />
+          <Input label="Name" value={formState.nameValue} setFormState={setFormState} inputId="name" isRequired />
           <CustomSelect
             label="Style"
             placeholder="Select"
             className="FormContainer__Select"
-            setFormState={setFormState}
+            onChange={onSelectValueChange}
             options={options}
           />
           <div className="FormContainer__CheckboxWrapper">
             <label>
-              <input 
+              <input
                 type="checkbox"
                 checked={isChecked}
                 onChange={() => setIsChecked((prev) => !prev)}
@@ -76,24 +72,13 @@ function App() {
               <span>Link to Peerlist profile</span>
             </label>
           </div>
-          {
-            isChecked && 
-              <InputUsername 
-                value={formState.peerlistUsername}
-                setFormState={setFormState}
-              />
-          }
+          {isChecked && <InputUsername value={formState.peerlistUsername} setFormState={setFormState} />}
           <div className="FormContainer__ButtonWrapper">
             <button className="FormContainer__Button">Generate</button>
           </div>
         </form>
       </div>
-      {isSubmitted && 
-        <Results 
-          badgeUrl={badgeUrl} 
-          linkProfile={linkProfile} 
-          isLinkToPeerlist={isChecked} 
-        />}
+      {isSubmitted && <Results badgeUrl={badgeUrl} linkProfile={linkProfile} isLinkToPeerlist={isChecked} />}
     </main>
   );
 }
