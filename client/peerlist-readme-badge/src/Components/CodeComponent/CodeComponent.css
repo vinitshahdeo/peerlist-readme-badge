@@ -1,0 +1,39 @@
+.CodeComponentContainer{
+    margin-top: calc(0.625rem *2);
+}
+
+.CodeComponentContainer > h3{
+  color: #00aa45;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.CodeBlock{
+    background-color: #fafafa;
+}
+
+.CodeBlock__Wrapper{
+    padding: 1rem;
+    display: flex;
+    gap: 0.125rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CodeBlock__Wrapper>code{
+    flex-grow: 8;
+}
+
+.CodeBlock__Wrapper:hover  .CodeBlock__Button{
+    color: black ;  
+}
+
+.CodeBlock__ButtonWrapper{
+    flex-grow: 2;
+}
+
+.CodeBlock__Button{
+    color: transparent;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+}

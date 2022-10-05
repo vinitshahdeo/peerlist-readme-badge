@@ -1,0 +1,59 @@
+.MainContainer {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.MainContainer__Title{
+  font-size: 2rem;
+  color: #00aa45;
+  font-weight: 700;
+  text-align: center;
+}
+
+.MainContainer__SubTitle{
+  color: #a1a5a8;
+  font-size: 1.125rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.FormContainer{
+  margin-top: 3rem;
+  max-width: 28em;
+}
+
+.FormContainer__Select{
+  margin-block: .625rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.FormContainer__CheckboxWrapper{
+  margin-top: .625rem;
+}
+
+.FormContainer__ButtonWrapper{
+  display: grid;
+  place-items: center;
+}
+
+
+.FormContainer__Button{
+  margin-top: calc(.625rem * 2);
+  background-color: rgb(0, 170, 69);
+  color: white;
+  letter-spacing: 0.1em;
+  padding:0.75rem .625rem;
+  border-radius: .25rem;
+  user-select: none;
+  width: 100%;
+  text-align: center;
+}
+
+.FormContainer__Button:hover{
+  cursor: pointer;
+  background-color: rgba( 0, 170, 69,0.8);
+}

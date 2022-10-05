@@ -1,5 +1,3 @@
-![](./public/images/peerlist-cover.jpg)
-
 <div align="center">
   <a href="https://peerlist.io/vinitshahdeo">
     <img src="https://peerlist-readme-badge.herokuapp.com/api"/>
@@ -8,11 +6,11 @@
 
 <h1 align="center">Peerlist <code>README</code> Badge</h1>
 
-**A [Peerlist profile](https://peerlist.io/vinitshahdeo) can be used as a simple resume or a complete portfolio to showcase your work. You can improve your `README.md` with an awesome Peerlist markdown badge.**
+![](./public/images/vinitshahdeo-peerlist-profile-cover.png)
+
+Peerlist is a community of working professionals focused on building a personal brand, sharing professional content, and finding peers to collaborate with. **A [Peerlist profile](https://peerlist.io/vinitshahdeo) can be used as a simple resume or a complete portfolio to showcase your work. You can style your `README.md` with an awesome Peerlist markdown badge.** This has now been integrated into the official Peerlist platform, **try it out here: [peerlist.io/tools/readme-badge](https://peerlist.io/tools/readme-badge)**
 
 :arrow_down: Below are a few examples:
-
-> **Warning** The author might be biased here, but you get the point! 😉
 
 | Peerlist User  | Badge  |
 |:---|:---|
@@ -22,6 +20,7 @@
 | [Santosh Yadav](https://peerlist.io/santoshyadavdev) | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/santoshyadavdev) |
 | [Vinit Shahdeo](https://peerlist.io/vinitshahdeo) | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo)  |
 
+> **Warning** The author might be biased above, but you get the point! 😉
 
 ## :handshake: How to use?
 
@@ -44,13 +43,11 @@ Additionally it supports the styles. **To use a different style**: Replace `flat
 
 | Type  | Badge  |
 |:---|:---|
-| `flat` <br> *<sub>This is the default style.<sub>*  | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo) |
+| `flat` <br> <sub>This is the default style.<sub>  | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo) |
 | `flat-square`  | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo?style=flat-square)  |
 | `plastic`  | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo?style=plastic)  |
 | `social`  | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo?style=social)  |
 | `for-the-badge`  | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo?style=for-the-badge)  |
-
-<br>
 
 > **Note** It's always preferable to include a link to your Peerlist profile in the `README` badge.
 
@@ -72,11 +69,11 @@ npm i
 npm start
 ```
 
-> The above command will start a local server and listens on port 3000 for connections.
+> The above command will start a local server that listens on port `3000` for connections.
 
 ### :arrows_counterclockwise: Run
 
-Visit `http://localhost:3000/<your-peerlist-username>`
+Visit `http://localhost:3000/<peerlist-username>`
 
 ```bash
 http://localhost:3000/vinitshahdeo
@@ -84,23 +81,44 @@ http://localhost:3000/vinitshahdeo
 
 ## :dart: What's next?
 
-The ultimate goal is to create a **dymanic markdown badge that displays Peerlist followers count** similar to the Twitter badge shown below. This is currently blocked on a public API to fetch the followers for a Peerlist user.
+| Upcoming badge  | Inspired from  |
+|---|---|
+| ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api?beta=true) | [![Twitter Follow @vinit_shahdeo](https://img.shields.io/twitter/follow/vinit_shahdeo?style=social)](https://twitter.com/Vinit_Shahdeo) |
 
-[![Twitter Follow @vinit_shahdeo](https://img.shields.io/twitter/follow/vinit_shahdeo?style=social)](https://twitter.com/Vinit_Shahdeo)
+*<sup>The above badge is dummy which can be retrieved using a query param: `beta=true` ⚠️</sup>* 
 
-## :toolbox: Want to contribute?
+The ultimate goal is to create a **dynamic markdown badge that displays Peerlist followers count** similar to the Twitter badge shown above. This is currently blocked on a public API to fetch the followers for a Peerlist user.
+
+## :rocket: Want to contribute?
 
 Do you want to pitch in? If so, please consider developing a web app that generates the markdown badge dynamically based on the Peerlist username entered by the user. There will be an option to copy the markdown text. You can take inspiration from the [Badges Generator](https://badgesgenerator.com/).
 
+### Social Summer Of Code (SSoC)
+
+This project is shortlisted for a three-months-long Open Source Program([Social Summer Of Code](https://ssoc.devfolio.co/)) Organized By Social in order to promote open source with new age technologies & help beginners to kickstart their open-source journey. Please get started by introducing yourself [here](https://github.com/vinitshahdeo/peerlist-readme-badge/discussions/6).
+
+> **Please refer to [SSoC.md](./SSoC.md) to get started.**
+
+## Gratitude :heart:
+
+A heartfelt thanks to the Peerlist team for adding this as a tool in their official platform: [peerlist.io/tools/readme-badge](https://peerlist.io/tools/readme-badge)
+
+![](./public/images/peerlist-tools.png)
+
 ## :construction: Behind the scenes
 
-Huge shoutout to [Shields.io](https://shields.io/) service for providing badges in the SVG format. :bow:
+Huge shoutout to [Shields.io](https://shields.io/) service for providing badges in the SVG format. :bow: Thank you [Pranjal](https://peerlist.io/pranjalbareth) for designing the poster.
 
 ![Deployed on Heroku](https://img.shields.io/badge/Deployed%20on%20Heroku-430098?style=flat&logo=heroku&logoColor=white)
 
 ## :hugs: Show some love!
 
-**Did you like it?** :+1: If yes, please help us spread the Peerlist `README` badge. :heart: <br>
+**Did you like it?** :+1: If yes, please help me spread the Peerlist `README` badge. :green_heart: <br>
+
+## :blue_heart: Wall of Love 
+
+<a href="https://twitter.com/Vinit_Shahdeo/status/1543485188734234624"><img src="./public/images/peerlist-tweet.png" width="45%" height="45%" /></a> <a href="https://twitter.com/Vinit_Shahdeo/status/1543485188734234624"><img src="./public/images/peerlist-tweet-1.png" width="45%" height="45%" /></a> <br><a href="https://twitter.com/Vinit_Shahdeo/status/1543485188734234624"><img src="./public/images/peerlist-tweet-4.png" width="45%" height="45%" /></a> <a href="https://twitter.com/Vinit_Shahdeo/status/1543485188734234624"><img src="./public/images/peerlist-tweet-3.png" width="45%" height="45%" /></a> 
+
 Show your support by [leaving a star](https://github.com/vinitshahdeo/peerlist-readme-badge/stargazers) or sharing your thoughts on [Twitter @vinit_shahdeo](https://twitter.com/Vinit_Shahdeo).
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/vinitshahdeo)
