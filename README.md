@@ -142,6 +142,8 @@ Huge shoutout to [Shields.io](https://shields.io/) service for providing badges 
 
 **Did you like it?** :+1: If yes, please help me spread the Peerlist `README` badge. :green_heart: <br>
 
+[![Twitter URL](https://img.shields.io/twitter/url?label=Tweet%20to%20spread%20a%20word&logo=twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fintent%2Ftweet%3Furl%3Dhttps%253A%252F%252Fgithub.com%252Fvinitshahdeo%252Fpeerlist-readme-badge%252Fissues%26via%3Dvinit_shahdeo%26text%3DHere%2527re%2520a%2520few%2520beginner-friendly%2520issues%26hashtags%3DHacktoberfest%252C%2520opensource%252C%2520hacktoberfest2022%252C%2520yourfirstPR)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fvinitshahdeo%2Fpeerlist-readme-badge&via=vinit_shahdeo&text=Here%27re%20a%20few%20beginner-friendly%20issues&hashtags=Hacktoberfest%2C%20opensource%2C%20hacktoberfest2022%2C%20yourfirstPR)
+
 ## :blue_heart: Wall of Love 
 
 <a href="https://twitter.com/Vinit_Shahdeo/status/1543485188734234624"><img src="./public/images/peerlist-tweet.png" width="45%" height="45%" /></a> <a href="https://twitter.com/Vinit_Shahdeo/status/1543485188734234624"><img src="./public/images/peerlist-tweet-1.png" width="45%" height="45%" /></a> <br><a href="https://twitter.com/Vinit_Shahdeo/status/1543485188734234624"><img src="./public/images/peerlist-tweet-4.png" width="45%" height="45%" /></a> <a href="https://twitter.com/Vinit_Shahdeo/status/1543485188734234624"><img src="./public/images/peerlist-tweet-3.png" width="45%" height="45%" /></a> 
