@@ -138,7 +138,7 @@ Huge shoutout to [Shields.io](https://shields.io/) service for providing badges 
 
 ![Deployed on Heroku](https://img.shields.io/badge/Deployed%20on%20Heroku-430098?style=flat&logo=heroku&logoColor=white)
 
-## :hugs: Show some love!
+## :hugs: Sharing is caring!
 
 **Did you like it?** :+1: If yes, please help me spread the Peerlist `README` badge. :green_heart: <br>
 
