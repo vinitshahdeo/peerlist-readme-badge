@@ -60,7 +60,7 @@ Additionally it supports the styles. **To use a different style**: Replace `flat
 
 `GET baseUrl/:username`
 
-Please refer to the [Peerlist README Badges public Postman collection](https://www.postman.com/restless-rocket-22186/workspace/peerlist-readme-badges/collection/6178851-67cf0bab-e978-4a37-b3ad-a5b3b42bf69e?action=share&creator=6178851) for the API documentation. Feel free to fork and use! You can directly run the collection in Postman by using the below `Run in Postman` button :point_down:
+Please refer to the [Peerlist README Badges public Postman collection](https://www.postman.com/restless-rocket-22186/workspace/peerlist-readme-badges/collection/6178851-67cf0bab-e978-4a37-b3ad-a5b3b42bf69e) for the API documentation. Feel free to fork and use! You can directly run the collection in Postman by using the below `Run in Postman` button :point_down:
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/6178851-67cf0bab-e978-4a37-b3ad-a5b3b42bf69e?action=collection%2Ffork&collection-url=entityId%3D6178851-67cf0bab-e978-4a37-b3ad-a5b3b42bf69e%26entityType%3Dcollection%26workspaceId%3D2f408deb-7005-42ba-a5c8-f68362aabfb5#?env%5BPeerlist%20Badges%5D=W3sia2V5IjoiYmFzZVVybCIsInZhbHVlIjoiaHR0cHM6Ly9wZWVybGlzdC1yZWFkbWUtYmFkZ2UuaGVyb2t1YXBwLmNvbSIsImVuYWJsZWQiOnRydWUsInR5cGUiOiJkZWZhdWx0In1d)
 
