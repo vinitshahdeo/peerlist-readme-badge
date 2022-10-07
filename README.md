@@ -56,11 +56,19 @@ Additionally it supports the styles. **To use a different style**: Replace `flat
 ````
 [![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo)](https://peerlist.io/vinitshahdeo)
 
+## API Documentation
+
+[![Peerlist Badges Postman Collection](http://img.shields.io/badge/Postman-Collection-orange.svg?style=flat&logo=postman)](https://www.postman.com/restless-rocket-22186/workspace/peerlist-readme-badges/collection/6178851-67cf0bab-e978-4a37-b3ad-a5b3b42bf69e)
+
+`GET baseUrl/:username` - please refer to the [Peerlist README Badges public Postman collection](https://www.postman.com/restless-rocket-22186/workspace/peerlist-readme-badges/collection/6178851-67cf0bab-e978-4a37-b3ad-a5b3b42bf69e) for the API documentation. Feel free to fork and use! You can directly run the collection in Postman by using the **Run in Postman** button below :point_down:
+
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/6178851-67cf0bab-e978-4a37-b3ad-a5b3b42bf69e?action=collection%2Ffork&collection-url=entityId%3D6178851-67cf0bab-e978-4a37-b3ad-a5b3b42bf69e%26entityType%3Dcollection%26workspaceId%3D2f408deb-7005-42ba-a5c8-f68362aabfb5#?env%5BPeerlist%20Badges%5D=W3sia2V5IjoiYmFzZVVybCIsInZhbHVlIjoiaHR0cHM6Ly9wZWVybGlzdC1yZWFkbWUtYmFkZ2UuaGVyb2t1YXBwLmNvbSIsImVuYWJsZWQiOnRydWUsInR5cGUiOiJkZWZhdWx0In1d)
+
 ## :running_man: How to run locally?
 
 ### :arrow_right: Setup
 
-1. Install all depedencies
+1. Install all dependencies
 ```bash
 npm i
 ```
@@ -79,6 +87,8 @@ Visit `http://localhost:3000/<peerlist-username>`
 http://localhost:3000/vinitshahdeo
 ```
 
+> **Note** Please refer to the [Postman collection](https://www.postman.com/restless-rocket-22186/workspace/peerlist-readme-badges/collection/6178851-67cf0bab-e978-4a37-b3ad-a5b3b42bf69e) for the API documentation.
+
 ## :dart: What's next?
 
 | Upcoming badge  | Inspired from  |
@@ -89,9 +99,36 @@ http://localhost:3000/vinitshahdeo
 
 The ultimate goal is to create a **dynamic markdown badge that displays Peerlist followers count** similar to the Twitter badge shown above. This is currently blocked on a public API to fetch the followers for a Peerlist user.
 
+## :link: Online Badge Generator
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0988f5ca-a884-4372-9b13-fd725fdb9dd6/deploy-status)](https://app.netlify.com/sites/peerlist-readme-badge/deploys)
+
+Try it out here: [peerlist-readme-badge.netlify.app](https://peerlist-readme-badge.netlify.app)
+
+**Build locally** :point_down:
+
+```sh
+git checkout feature/web-app
+cd client/peerlist-readme-badge
+npm install
+npm run start
+```
+
 ## :rocket: Want to contribute?
 
+[![GitHub issues](https://img.shields.io/github/issues/vinitshahdeo/peerlist-readme-badge?logo=github)](https://github.com/vinitshahdeo/peerlist-readme-badge/issues) [![GitHub pull requests](https://img.shields.io/github/issues-pr-closed/vinitshahdeo/peerlist-readme-badge?logo=github&color=green)](https://github.com/vinitshahdeo/peerlist-readme-badge/pulls)
+
 Do you want to pitch in? If so, please consider developing a web app that generates the markdown badge dynamically based on the Peerlist username entered by the user. There will be an option to copy the markdown text. You can take inspiration from the [Badges Generator](https://badgesgenerator.com/).
+
+> Check out open issues [here](https://github.com/vinitshahdeo/peerlist-readme-badge/issues). These are beginner-friendly issues for the participants of [Hacktoberfest'22](https://hacktoberfest.com/).
+
+### Hacktoberfest 2022
+
+![GitHub Hacktoberfest combined status](https://img.shields.io/github/hacktoberfest/2022/vinitshahdeo/peerlist-readme-badge?logo=digitalocean&logoColor=white)
+
+As [Hacktoberfest'22](https://hacktoberfest.com/) is here, I have opened a few [beginner-friendly issues](https://github.com/vinitshahdeo/peerlist-readme-badge/issues) for newbies to get them started with open-source. Feel free to **open an issue**, **raise a pull request** or spread a word about the **[first-timers issues](https://github.com/vinitshahdeo/peerlist-readme-badge/issues)** opened here.
+
+[![Twitter URL](https://img.shields.io/twitter/url?label=Tweet%20to%20spread%20a%20word&logo=twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fintent%2Ftweet%3Furl%3Dhttps%253A%252F%252Fgithub.com%252Fvinitshahdeo%252Fpeerlist-readme-badge%252Fissues%26via%3Dvinit_shahdeo%26text%3DHere%2527re%2520a%2520few%2520beginner-friendly%2520issues%26hashtags%3DHacktoberfest%252C%2520opensource%252C%2520hacktoberfest2022%252C%2520yourfirstPR)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fvinitshahdeo%2Fpeerlist-readme-badge&via=vinit_shahdeo&text=Here%27re%20a%20few%20beginner-friendly%20issues&hashtags=Hacktoberfest%2C%20opensource%2C%20hacktoberfest2022%2C%20yourfirstPR)
 
 ### Social Summer Of Code (SSoC)
 
@@ -111,9 +148,11 @@ Huge shoutout to [Shields.io](https://shields.io/) service for providing badges 
 
 ![Deployed on Heroku](https://img.shields.io/badge/Deployed%20on%20Heroku-430098?style=flat&logo=heroku&logoColor=white)
 
-## :hugs: Show some love!
+## :hugs: Sharing is caring!
 
 **Did you like it?** :+1: If yes, please help me spread the Peerlist `README` badge. :green_heart: <br>
+
+[![Twitter URL](https://img.shields.io/twitter/url?label=Tweet%20to%20spread%20a%20word&logo=twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fintent%2Ftweet%3Furl%3Dhttps%253A%252F%252Fgithub.com%252Fvinitshahdeo%252Fpeerlist-readme-badge%252Fissues%26via%3Dvinit_shahdeo%26text%3DHere%2527re%2520a%2520few%2520beginner-friendly%2520issues%26hashtags%3DHacktoberfest%252C%2520opensource%252C%2520hacktoberfest2022%252C%2520yourfirstPR)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fvinitshahdeo%2Fpeerlist-readme-badge&via=vinit_shahdeo&text=Here%27re%20a%20few%20beginner-friendly%20issues&hashtags=Hacktoberfest%2C%20opensource%2C%20hacktoberfest2022%2C%20yourfirstPR)
 
 ## :blue_heart: Wall of Love 
 
@@ -121,4 +160,4 @@ Huge shoutout to [Shields.io](https://shields.io/) service for providing badges 
 
 Show your support by [leaving a star](https://github.com/vinitshahdeo/peerlist-readme-badge/stargazers) or sharing your thoughts on [Twitter @vinit_shahdeo](https://twitter.com/Vinit_Shahdeo).
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/vinitshahdeo)
+<a href="https://www.buymeacoffee.com/vinitshahdeo" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 25% !important;width: 25% !important;" ></a>
