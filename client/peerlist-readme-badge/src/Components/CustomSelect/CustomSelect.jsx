@@ -37,7 +37,7 @@ const customStyles = {
   }),
 };
 
-const CustomSelect = ({ options, label, placeholder, setFormState }) => {
+const CustomSelect = ({ options, label, placeholder, onChange }) => {
   return (
     <div className="SelectContainer">
       <label className="SelectContainer__Label">{label}</label>
@@ -48,9 +48,7 @@ const CustomSelect = ({ options, label, placeholder, setFormState }) => {
         styles={customStyles}
         isSearchable={false}
         theme={customTheme}
-        onChange={({ value }) => {
-          setFormState((prev) => ({ ...prev, selectValue: value }));
-        }}
+        onChange={onChange}
       />
     </div>
   );
