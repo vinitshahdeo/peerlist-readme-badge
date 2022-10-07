@@ -60,7 +60,7 @@ Additionally it supports the styles. **To use a different style**: Replace `flat
 
 ### :arrow_right: Setup
 
-1. Install all depedencies
+1. Install all dependencies
 ```bash
 npm i
 ```
