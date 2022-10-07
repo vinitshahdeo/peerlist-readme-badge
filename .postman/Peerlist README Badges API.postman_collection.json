@@ -1,0 +1,280 @@
+{
+	"info": {
+		"_postman_id": "67cf0bab-e978-4a37-b3ad-a5b3b42bf69e",
+		"name": "Peerlist README Badges API",
+		"description": "<img src=\"https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo\">\n\nPeerlist is a community of working professionals focused on building a personal brand, sharing professional content, and finding peers to collaborate with. **A** [**Peerlist profile**](https://peerlist.io/vinitshahdeo) **can be used as a simple resume or a complete portfolio to showcase your work. You can style your** **`README.md`** **with an awesome Peerlist markdown badge.** This has now been integrated into the official Peerlist platform, **try it out here:** [**peerlist.io/tools/readme-badge**](https://peerlist.io/tools/readme-badge)\n\n### API\n\n\\* **Base URL**: [https://peerlist-readme-badge.herokuapp.com/](https://peerlist-readme-badge.herokuapp.com/api)  \n\\* **Route param**: `username` - Your Peerlist username  \n\\* **Query param**: `style` - It can be flat, flat-square, plastic, social and for-the-badge\n\n### Usage\n\n``` markdown\n![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo)\n\n```\n\n### References\n\n\\* [GitHub repository](https://github.com/vinitshahdeo/peerlist-readme-badge)  \n\\* [API Documentation](https://vinitshahdeo.github.io/peerlist-readme-badge/)  \n\\* [Peerlist Badge Generator](https://peerlist-readme-badge.netlify.app/)\n\n[![](https://github-readme-stats.vercel.app/api/pin/?username=vinitshahdeo&repo=peerlist-readme-badge)](https://github.com/vinitshahdeo/peerlist-readme-badge)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6186519"
+	},
+	"item": [
+		{
+			"name": "Get Default Badge",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/api/:username",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						":username"
+					],
+					"variable": [
+						{
+							"key": "username",
+							"value": "vinitshahdeo",
+							"description": "Replace with your Peerlist username"
+						}
+					]
+				},
+				"description": "Get the default Peerlist `README` badge. The default style is **flat.**\n\n![](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo)"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Plastic Badge",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/api/:username?style=plastic",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						":username"
+					],
+					"query": [
+						{
+							"key": "style",
+							"value": "plastic",
+							"description": "Badge style. It can be flat, flat-square, plastic, social and for-the-badge"
+						}
+					],
+					"variable": [
+						{
+							"key": "username",
+							"value": "vinitshahdeo",
+							"description": "Replace with your Peerlist username"
+						}
+					]
+				},
+				"description": "![](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo?style=plastic)"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Flat Badge",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/api/:username?style=flat",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						":username"
+					],
+					"query": [
+						{
+							"key": "style",
+							"value": "flat",
+							"description": "Badge style. It can be flat, flat-square, plastic, social and for-the-badge"
+						}
+					],
+					"variable": [
+						{
+							"key": "username",
+							"value": "vinitshahdeo",
+							"description": "Replace with your Peerlist username"
+						}
+					]
+				},
+				"description": "![](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo)"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Flat Square Badge",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/api/:username?style=flat-square",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						":username"
+					],
+					"query": [
+						{
+							"key": "style",
+							"value": "flat-square",
+							"description": "Badge style. It can be flat, flat-square, plastic, social and for-the-badge"
+						}
+					],
+					"variable": [
+						{
+							"key": "username",
+							"value": "vinitshahdeo",
+							"description": "Replace with your Peerlist username"
+						}
+					]
+				},
+				"description": "![](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo?style=flat-square)"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Flat Social Badge",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/api/:username?style=social",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						":username"
+					],
+					"query": [
+						{
+							"key": "style",
+							"value": "social",
+							"description": "Badge style. It can be flat, flat-square, plastic, social and for-the-badge"
+						}
+					],
+					"variable": [
+						{
+							"key": "username",
+							"value": "vinitshahdeo",
+							"description": "Replace with your Peerlist username"
+						}
+					]
+				},
+				"description": "![](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo?style=social)"
+			},
+			"response": []
+		},
+		{
+			"name": "Get For The Badge",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/api/:username?style=for-the-badge",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						":username"
+					],
+					"query": [
+						{
+							"key": "style",
+							"value": "for-the-badge",
+							"description": "Badge style. It can be flat, flat-square, plastic, social and for-the-badge"
+						}
+					],
+					"variable": [
+						{
+							"key": "username",
+							"value": "vinitshahdeo",
+							"description": "Replace it with your Peerlist username"
+						}
+					]
+				},
+				"description": "![](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo?style=for-the-badge)"
+			},
+			"response": []
+		}
+	]
+}
