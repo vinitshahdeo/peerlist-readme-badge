@@ -66,6 +66,8 @@ Additionally it supports the styles. **To use a different style**: Replace `flat
 
 ## :running_man: How to run locally?
 
+[![Visual Studio](https://badgen.net/badge/icon/visualstudio?icon=visualstudio&label)](https://github.dev/vinitshahdeo/peerlist-readme-badge/) [![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg?logo=javascript)](https://github.com/vinitshahdeo/peerlist-readme-badge/fork)
+
 ### :arrow_right: Setup
 
 1. Install all dependencies
@@ -131,6 +133,8 @@ As [Hacktoberfest'22](https://hacktoberfest.com/) is here, I have opened a few [
 [![Twitter URL](https://img.shields.io/twitter/url?label=Tweet%20to%20spread%20a%20word&logo=twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fintent%2Ftweet%3Furl%3Dhttps%253A%252F%252Fgithub.com%252Fvinitshahdeo%252Fpeerlist-readme-badge%252Fissues%26via%3Dvinit_shahdeo%26text%3DHere%2527re%2520a%2520few%2520beginner-friendly%2520issues%26hashtags%3DHacktoberfest%252C%2520opensource%252C%2520hacktoberfest2022%252C%2520yourfirstPR)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fvinitshahdeo%2Fpeerlist-readme-badge&via=vinit_shahdeo&text=Here%27re%20a%20few%20beginner-friendly%20issues&hashtags=Hacktoberfest%2C%20opensource%2C%20hacktoberfest2022%2C%20yourfirstPR)
 
 ### Social Summer Of Code (SSoC)
+
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://vinitshahdeo.github.io/peerlist-readme-badge/)
 
 This project is shortlisted for a three-months-long Open Source Program([Social Summer Of Code](https://ssoc.devfolio.co/)) Organized By Social in order to promote open source with new age technologies & help beginners to kickstart their open-source journey. Please get started by introducing yourself [here](https://github.com/vinitshahdeo/peerlist-readme-badge/discussions/6).
 
