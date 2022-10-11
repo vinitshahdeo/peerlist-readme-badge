@@ -162,7 +162,9 @@ Huge shoutout to [Shields.io](https://shields.io/) service for providing badges 
 
 ## :blue_heart: Wall of Love 
 
-<a href="https://twitter.com/Vinit_Shahdeo/status/1543485188734234624"><img src="./public/images/peerlist-tweet.png" width="45%" height="45%" /></a> <a href="https://twitter.com/Vinit_Shahdeo/status/1543485188734234624"><img src="./public/images/peerlist-tweet-1.png" width="45%" height="45%" /></a> <br><a href="https://twitter.com/Vinit_Shahdeo/status/1543485188734234624"><img src="./public/images/peerlist-tweet-4.png" width="45%" height="45%" /></a> <a href="https://twitter.com/Vinit_Shahdeo/status/1543485188734234624"><img src="./public/images/peerlist-tweet-3.png" width="45%" height="45%" /></a> 
+<a href="https://twitter.com/Vinit_Shahdeo/status/1543485188734234624"><img src="./public/images/peerlist-tweet.png" width="45%" height="45%" /></a> <a href="https://twitter.com/Vinit_Shahdeo/status/1543485188734234624"><img src="./public/images/peerlist-tweet-1.png" width="45%" height="45%" /></a> <br><a href="https://twitter.com/Vinit_Shahdeo/status/1543485188734234624"><img src="./public/images/peerlist-tweet-4.png" width="45%" height="45%" /></a> <a href="https://twitter.com/Vinit_Shahdeo/status/1543485188734234624"><img src="./public/images/peerlist-tweet-3.png" width="45%" height="45%" /></a>
+
+[![Twitter Follow @vinit_shahdeo](https://img.shields.io/twitter/follow/vinit_shahdeo?style=social)](https://twitter.com/Vinit_Shahdeo)
 
 Show your support by [leaving a star](https://github.com/vinitshahdeo/peerlist-readme-badge/stargazers) or sharing your thoughts on [Twitter @vinit_shahdeo](https://twitter.com/Vinit_Shahdeo).
 
