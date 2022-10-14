@@ -154,6 +154,18 @@ Huge shoutout to [Shields.io](https://shields.io/) service for providing badges 
 
 ![Deployed on Heroku](https://img.shields.io/badge/Deployed%20on%20Heroku-430098?style=flat&logo=heroku&logoColor=white)
 
+## Similar projects
+
+Topmate is a platform to connect 1:1 with your audience & monetise your time better. Basically, one link to do it all ➥ [topmate.io/vinitshahdeo](https://topmate.io/vinitshahdeo). Even better, you can now **add a markdown badge** in your GitHub profile `README` to connect with your community!
+
+[![Topmate](https://topmate-readme-badge.herokuapp.com/vinitshahdeo)](https://topmate.io/vinitshahdeo)
+
+Here's `markdown` badge generator for your Topmate profile 💚 
+➥ [topmate-readme-badge](https://github.com/vinitshahdeo/topmate-readme-badge)
+
+[![topmate-readme-badge](https://github-readme-stats.vercel.app/api/pin/?username=vinitshahdeo&repo=topmate-readme-badge)](https://github.com/vinitshahdeo/topmate-readme-badge)
+
+
 ## :hugs: Sharing is caring!
 
 **Did you like it?** :+1: If yes, please help me spread the Peerlist `README` badge. :green_heart: <br>
