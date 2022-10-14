@@ -26,7 +26,7 @@ Peerlist is a community of working professionals focused on building a personal 
 
 Replace `vinitshahdeo` in the markdown with your Peerlist username. **Get a [Peerlist profile here](https://peerlist.io/) if you don't have one already!**
 
-```md
+```markdown
 ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo)
 ```
 ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo)
@@ -35,7 +35,7 @@ Replace `vinitshahdeo` in the markdown with your Peerlist username. **Get a [Pee
 
 Additionally it supports the styles. **To use a different style**: Replace `flat-square` in the markdown with any of the styles below. :point_down:
 
-```md
+```markdown
 ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo?style=flat-square)
 ```
 
@@ -51,7 +51,7 @@ Additionally it supports the styles. **To use a different style**: Replace `flat
 
 > **Note** It's always preferable to include a link to your Peerlist profile in the `README` badge.
 
-```md
+```markdown
 [![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo)](https://peerlist.io/vinitshahdeo)
 ````
 [![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo)](https://peerlist.io/vinitshahdeo)
