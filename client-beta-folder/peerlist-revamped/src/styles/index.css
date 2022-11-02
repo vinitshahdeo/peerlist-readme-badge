@@ -1,0 +1,7 @@
+html, #root, body{
+    height: 100%;
+}
+
+body{
+    background: #F6F8FA !important;
+}
