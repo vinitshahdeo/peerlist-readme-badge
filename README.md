@@ -124,6 +124,8 @@ Do you want to pitch in? If so, please consider developing a web app that genera
 
 > Check out open issues [here](https://github.com/vinitshahdeo/peerlist-readme-badge/issues). These are beginner-friendly issues for the participants of [Hacktoberfest'22](https://hacktoberfest.com/).
 
+[![Forkers repo roster for @vinitshahdeo/peerlist-readme-badge](https://reporoster.com/forks/vinitshahdeo/peerlist-readme-badge)](https://github.com/vinitshahdeo/peerlist-readme-badge/network/members)
+
 ### Hacktoberfest 2022
 
 ![GitHub Hacktoberfest combined status](https://img.shields.io/github/hacktoberfest/2022/vinitshahdeo/peerlist-readme-badge?logo=digitalocean&logoColor=white)
@@ -154,13 +156,17 @@ Huge shoutout to [Shields.io](https://shields.io/) service for providing badges 
 
 ![Deployed on Heroku](https://img.shields.io/badge/Deployed%20on%20Heroku-430098?style=flat&logo=heroku&logoColor=white)
 
+## Stargazers 💚 
+
+[![Stargazers repo roster for @vinitshahdeo/peerlist-readme-badge](https://reporoster.com/stars/vinitshahdeo/peerlist-readme-badge)](https://github.com/vinitshahdeo/peerlist-readme-badge/stargazers)
+
 ## Similar projects
 
 Topmate is a platform to connect 1:1 with your audience & monetise your time better. Basically, one link to do it all ➥ [topmate.io/vinitshahdeo](https://topmate.io/vinitshahdeo). Even better, you can now **add a markdown badge** in your GitHub profile `README` to connect with your community!
 
 [![Topmate](https://topmate-readme-badge.herokuapp.com/vinitshahdeo)](https://topmate.io/vinitshahdeo)
 
-Here's `markdown` badge generator for your Topmate profile 💚 
+Here's `markdown` badge generator for your Topmate profile 
 ➥ [topmate-readme-badge](https://github.com/vinitshahdeo/topmate-readme-badge)
 
 [![topmate-readme-badge](https://github-readme-stats.vercel.app/api/pin/?username=vinitshahdeo&repo=topmate-readme-badge)](https://github.com/vinitshahdeo/topmate-readme-badge)
