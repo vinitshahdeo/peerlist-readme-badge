@@ -1,0 +1,97 @@
+nav{
+    display: flex;
+    align-items: center;
+
+    margin: 0 auto 0 auto;
+    padding: 20px 0 20px 0;
+    
+    width: 80vw;
+
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.peerlist-username-btn:hover{
+    cursor: pointer;
+}
+
+
+.peerlist-logo{
+    height: 74px;
+    width: 74px;
+}
+
+.peerlist-username-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    color: white;
+
+    width: 262px;
+    height: 39px;
+
+    background: #2F363D;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+}
+
+.peerlist-star-btn, .peerlist-fork-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    color: #959DA5;
+    background-color: white;
+    width: 112px;
+    height: 32px;
+    
+    font-size: 16px;
+
+    border: 1px solid #00AA45;
+    border-radius: 5px;
+
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+}
+
+.nav-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+    /* width: 550px; */
+}
+
+.git-btns{
+    display: flex;
+    gap: 20px;
+}
+
+@media screen and (max-width: 730px){
+    nav{
+        width: 80vw;
+        flex-direction: column;
+    }
+
+    .peerlist-logo{
+        margin-bottom: 30px;
+    }
+
+    .nav-right{
+        flex-direction: column;
+        width: 90vw;
+    }
+}

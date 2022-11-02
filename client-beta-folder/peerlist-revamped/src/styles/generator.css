@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.peerlist{
+    display: flex;
+    align-items: center;
+}
+
+.generator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.generator h1{
+    margin: 0;
+
+    margin-top: 60px;
+
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 0.01em;
+
+    margin-bottom: 64px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-div{
+    display: flex;
+    flex-direction: column;
+
+    text-align: left;
+    width: 374px;
+    outline: 1px solid #959DA5;
+    border-radius: 10px;
+    padding: 5px 0 5px 10px;
+}
+
+.asterisk{
+    color: #FF0000;
+}
+
+.input-div label{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+
+    color: #959DA5;
+
+}
+
+.name-div, .username-div{
+    margin-bottom: 40px;
+}
+
+.style-div{
+    margin-bottom: 25px;
+}
+
+.checkbox-input, .peerlist-badge{
+    margin-bottom: 40px;
+}
+
+.checkbox-input{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    letter-spacing: 0.01em;
+    color: #959DA5;
+}
+
+.checkbox{
+    margin-right: 15px;
+}
+
+.generator-name, .generator-dropdown, .generator-username{
+    width: 368px;
+    height: 22px;
+    background: white;
+    border: none;
+    margin-top: 5px;
+}
+
+.generator-peerlist, .markdown-heading, .html-heading{
+    color: #00AA45;
+}
+
+.markdown-heading, .html-heading{
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.generator-username{
+    border: none;
+}
+
+.generator-username:focus, .generator-name:focus, .generator-dropdown:focus{
+    outline: none;
+}
+
+.peerlist-generate{
+    width: 185px;
+    height: 52px;
+
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+
+    background: #00AA45;
+    border: 2px solid #219653;
+    border-radius: 5px;
+
+    margin-bottom: 65px;
+}
+
+.topmate-span{
+    color: #FF0000;
+    text-decoration: underline;
+    text-decoration-color: #FF0000 !important;
+}
+
+.topmate-link{
+    font-style: italic;
+    text-decoration: underline !important;
+}
+
+.topmate-arrow{
+    text-decoration: none !important;
+}
+
+.markdown-text, .html-text{
+    box-sizing: border-box;
+    width: 671px;
+    height: 150px;
+
+    text-align: left;
+
+    padding: 16px;
+
+    background-color: white;
+    border: 1px solid #959DA5;
+    border-radius: 10px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+.generator a{
+    color: black;
+}
+
+h3{
+    margin: 0;
+}
+
+.markdown-div, .html-div{
+    margin-top: 40px;
+}
+
+.html-div{
+    margin-bottom: 20px;
+}
+
+.external-links{
+    margin-top: 50px;
+    display: flex;
+    gap: 64px;
+    margin-bottom: 40px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+input, select{
+    font-family: "Inter";
+    font-size: 16px;
+    letter-spacing: 0.01em;
+}
+
+.postman-btn, .twitter-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+
+    color: #FFFFFF;
+    width: 231px;
+    height: 52px;
+
+    padding: 15px 20px;
+    gap: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.postman-btn{
+    background: #FF6C37;
+}
+
+.twitter-btn{
+    background: #1DA1F2;
+}
+
+@media screen and (max-width: 730px){
+    .external-links{
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .input-div{
+        width: 90vw !important;
+    }
+    .generator-name, .generator-dropdown, .generator-username{
+        width: 90vw;
+    }
+
+    select{
+        width: 85vw !important;
+    }
+
+    .markdown-div, .html-div, .markdown-text, .html-text{
+        width: 90vw !important;
+    }
+}
