@@ -171,6 +171,9 @@ Here's `markdown` badge generator for your Topmate profile
 
 [![topmate-readme-badge](https://github-readme-stats.vercel.app/api/pin/?username=vinitshahdeo&repo=topmate-readme-badge)](https://github.com/vinitshahdeo/topmate-readme-badge)
 
+## Author
+
+[![GitHub WidgetBox](https://github-widgetbox.vercel.app/api/profile?username=vinitshahdeo&data=followers,repositories,stars,commits)](https://github.com/vinitshahdeo)
 
 ## :hugs: Sharing is caring!
 
