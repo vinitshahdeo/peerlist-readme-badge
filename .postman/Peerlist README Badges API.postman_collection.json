@@ -2,7 +2,7 @@
 	"info": {
 		"_postman_id": "67cf0bab-e978-4a37-b3ad-a5b3b42bf69e",
 		"name": "Peerlist README Badges API",
-		"description": "<img src=\"https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo\">\n\nPeerlist is a community of working professionals focused on building a personal brand, sharing professional content, and finding peers to collaborate with. **A** [**Peerlist profile**](https://peerlist.io/vinitshahdeo) **can be used as a simple resume or a complete portfolio to showcase your work. You can style your** **`README.md`** **with an awesome Peerlist markdown badge.** This has now been integrated into the official Peerlist platform, **try it out here:** [**peerlist.io/tools/readme-badge**](https://peerlist.io/tools/readme-badge)\n\n### API\n\n\\* **Base URL**: [https://peerlist-readme-badge.herokuapp.com/](https://peerlist-readme-badge.herokuapp.com/api)  \n\\* **Route param**: `username` - Your Peerlist username  \n\\* **Query param**: `style` - It can be flat, flat-square, plastic, social and for-the-badge\n\n### Usage\n\n``` markdown\n![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo)\n\n```\n\n### References\n\n\\* [GitHub repository](https://github.com/vinitshahdeo/peerlist-readme-badge)  \n\\* [API Documentation](https://vinitshahdeo.github.io/peerlist-readme-badge/)  \n\\* [Peerlist Badge Generator](https://peerlist-readme-badge.netlify.app/)\n\n[![](https://github-readme-stats.vercel.app/api/pin/?username=vinitshahdeo&repo=peerlist-readme-badge)](https://github.com/vinitshahdeo/peerlist-readme-badge)",
+		"description": "<img src=\"https://peerlist.onrender.com/vinitshahdeo\">\n\nPeerlist is a community of working professionals focused on building a personal brand, sharing professional content, and finding peers to collaborate with. **A** [**Peerlist profile**](https://peerlist.io/vinitshahdeo) **can be used as a simple resume or a complete portfolio to showcase your work. You can style your** **`README.md`** **with an awesome Peerlist markdown badge.** This has now been integrated into the official Peerlist platform, **try it out here:** [**peerlist.io/tools/readme-badge**](https://peerlist.io/tools/readme-badge)\n\n### API\n\n\\* **Base URL**: [https://peerlist-readme-badge.herokuapp.com/](https://peerlist.onrender.com)  \n\\* **Route param**: `username` - Your Peerlist username  \n\\* **Query param**: `style` - It can be flat, flat-square, plastic, social and for-the-badge\n\n### Usage\n\n``` markdown\n![Peerlist](https://peerlist.onrender.com/vinitshahdeo)\n\n```\n\n### References\n\n\\* [GitHub repository](https://github.com/vinitshahdeo/peerlist-readme-badge)  \n\\* [API Documentation](https://vinitshahdeo.github.io/peerlist-readme-badge/)  \n\\* [Peerlist Badge Generator](https://peerlist-readme-badge.netlify.app/)\n\n[![](https://github-readme-stats.vercel.app/api/pin/?username=vinitshahdeo&repo=peerlist-readme-badge)](https://github.com/vinitshahdeo/peerlist-readme-badge)",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "6186519"
 	},
@@ -42,7 +42,7 @@
 						}
 					]
 				},
-				"description": "Get the default Peerlist `README` badge. The default style is **flat.**\n\n![](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo)"
+				"description": "Get the default Peerlist `README` badge. The default style is **flat.**\n\n![](https://peerlist.onrender.com/vinitshahdeo)"
 			},
 			"response": []
 		},
@@ -88,7 +88,7 @@
 						}
 					]
 				},
-				"description": "![](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo?style=plastic)"
+				"description": "![](https://peerlist.onrender.com/vinitshahdeo?style=plastic)"
 			},
 			"response": []
 		},
@@ -134,7 +134,7 @@
 						}
 					]
 				},
-				"description": "![](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo)"
+				"description": "![](https://peerlist.onrender.com/vinitshahdeo)"
 			},
 			"response": []
 		},
@@ -180,7 +180,7 @@
 						}
 					]
 				},
-				"description": "![](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo?style=flat-square)"
+				"description": "![](https://peerlist.onrender.com/vinitshahdeo?style=flat-square)"
 			},
 			"response": []
 		},
@@ -226,7 +226,7 @@
 						}
 					]
 				},
-				"description": "![](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo?style=social)"
+				"description": "![](https://peerlist.onrender.com/vinitshahdeo?style=social)"
 			},
 			"response": []
 		},
@@ -272,7 +272,7 @@
 						}
 					]
 				},
-				"description": "![](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo?style=for-the-badge)"
+				"description": "![](https://peerlist.onrender.com/vinitshahdeo?style=for-the-badge)"
 			},
 			"response": []
 		}
