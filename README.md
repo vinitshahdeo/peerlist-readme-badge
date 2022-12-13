@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://peerlist.io/vinitshahdeo">
-    <img src="https://peerlist-readme-badge.herokuapp.com/api"/>
+    <img src="https://peerlist.onrender.com/api/vinitshahdeo"/>
   </a>
 </div>
 
@@ -14,11 +14,11 @@ Peerlist is a community of working professionals focused on building a personal 
 
 | Peerlist User  | Badge  |
 |:---|:---|
-| [Akash Bhadange](https://peerlist.io/designerdada) | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/designerdada) |
-| [Pranjal Bareth](https://peerlist.io/pranjalbareth) | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/pranjalbareth) |
-| [Yogini Bende](https://peerlist.io/yogini)  | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/yogini) |
-| [Santosh Yadav](https://peerlist.io/santoshyadavdev) | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/santoshyadavdev) |
-| [Vinit Shahdeo](https://peerlist.io/vinitshahdeo) | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo)  |
+| [Akash Bhadange](https://peerlist.io/designerdada) | ![Peerlist](https://peerlist.onrender.com/api/designerdada) |
+| [Pranjal Bareth](https://peerlist.io/pranjalbareth) | ![Peerlist](https://peerlist.onrender.com/api/pranjalbareth) |
+| [Yogini Bende](https://peerlist.io/yogini)  | ![Peerlist](https://peerlist.onrender.com/api/yogini) |
+| [Santosh Yadav](https://peerlist.io/santoshyadavdev) | ![Peerlist](https://peerlist.onrender.com/api/santoshyadavdev) |
+| [Vinit Shahdeo](https://peerlist.io/vinitshahdeo) | ![Peerlist](https://peerlist.onrender.com/api/vinitshahdeo)  |
 
 > **Warning** The author might be biased above, but you get the point! 😉
 
@@ -27,34 +27,34 @@ Peerlist is a community of working professionals focused on building a personal 
 Replace `vinitshahdeo` in the markdown with your Peerlist username. **Get a [Peerlist profile here](https://peerlist.io/) if you don't have one already!**
 
 ```markdown
-![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo)
+![Peerlist](https://peerlist.onrender.com/api/vinitshahdeo)
 ```
-![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo)
+![Peerlist](https://peerlist.onrender.com/api/vinitshahdeo)
 
 ### :art: Style your badge:)
 
 Additionally it supports the styles. **To use a different style**: Replace `flat-square` in the markdown with any of the styles below. :point_down:
 
 ```markdown
-![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo?style=flat-square)
+![Peerlist](https://peerlist.onrender.com/api/vinitshahdeo?style=flat-square)
 ```
 
 #### :traffic_light: Available styles
 
 | Type  | Badge  |
 |:---|:---|
-| `flat` <br> <sub>This is the default style.<sub>  | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo) |
-| `flat-square`  | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo?style=flat-square)  |
-| `plastic`  | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo?style=plastic)  |
-| `social`  | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo?style=social)  |
-| `for-the-badge`  | ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo?style=for-the-badge)  |
+| `flat` <br> <sub>This is the default style.<sub>  | ![Peerlist](https://peerlist.onrender.com/api/vinitshahdeo) |
+| `flat-square`  | ![Peerlist](https://peerlist.onrender.com/api/vinitshahdeo?style=flat-square)  |
+| `plastic`  | ![Peerlist](https://peerlist.onrender.com/api/vinitshahdeo?style=plastic)  |
+| `social`  | ![Peerlist](https://peerlist.onrender.com/api/vinitshahdeo?style=social)  |
+| `for-the-badge`  | ![Peerlist](https://peerlist.onrender.com/api/vinitshahdeo?style=for-the-badge)  |
 
 > **Note** It's always preferable to include a link to your Peerlist profile in the `README` badge.
 
 ```markdown
-[![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo)](https://peerlist.io/vinitshahdeo)
+[![Peerlist](https://peerlist.onrender.com/api/vinitshahdeo)](https://peerlist.io/vinitshahdeo)
 ````
-[![Peerlist](https://peerlist-readme-badge.herokuapp.com/api/vinitshahdeo)](https://peerlist.io/vinitshahdeo)
+[![Peerlist](https://peerlist.onrender.com/api/vinitshahdeo)](https://peerlist.io/vinitshahdeo)
 
 ## :notebook: API Documentation
 
@@ -95,7 +95,7 @@ http://localhost:3000/vinitshahdeo
 
 | Upcoming badge  | Inspired from  |
 |---|---|
-| ![Peerlist](https://peerlist-readme-badge.herokuapp.com/api?beta=true) | [![Twitter Follow @vinit_shahdeo](https://img.shields.io/twitter/follow/vinit_shahdeo?style=social)](https://twitter.com/Vinit_Shahdeo) |
+| ![Peerlist](https://peerlist.onrender.com/api?beta=true) | [![Twitter Follow @vinit_shahdeo](https://img.shields.io/twitter/follow/vinit_shahdeo?style=social)](https://twitter.com/Vinit_Shahdeo) |
 
 *<sup>The above badge is dummy which can be retrieved using a query param: `beta=true` ⚠️</sup>* 
 
@@ -164,7 +164,7 @@ Huge shoutout to [Shields.io](https://shields.io/) service for providing badges 
 
 Topmate is a platform to connect 1:1 with your audience & monetise your time better. Basically, one link to do it all ➥ [topmate.io/vinitshahdeo](https://topmate.io/vinitshahdeo). Even better, you can now **add a markdown badge** in your GitHub profile `README` to connect with your community!
 
-[![Topmate](https://topmate-readme-badge.herokuapp.com/vinitshahdeo)](https://topmate.io/vinitshahdeo)
+[![Topmate](https://topmate-readme-badge.onrender.com/vinitshahdeo)](https://topmate.io/vinitshahdeo)
 
 Here's `markdown` badge generator for your Topmate profile 
 ➥ [topmate-readme-badge](https://github.com/vinitshahdeo/topmate-readme-badge)
