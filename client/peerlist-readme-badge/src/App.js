@@ -6,11 +6,11 @@ import InputUsername from "./Components/InputUsername/InputUsername";
 import Results from "./Components/Results/Results";
 
 const options = [
-  { value: "flat", label: "flat" },
-  { value: "flat-square", label: "flat-square" },
-  { value: "plastic", label: "plastic" },
-  { value: "social", label: "social" },
-  { value: "for-the-badge", label: "for-the-badge" },
+  { value: "flat", label: "Flat" },
+  { value: "flat-square", label: "Flat-square" },
+  { value: "plastic", label: "Plastic" },
+  { value: "social", label: "Social" },
+  { value: "for-the-badge", label: "For-the-badge" },
 ];
 
 const initialFormState = {
@@ -49,11 +49,13 @@ function App() {
 
   return (
     <main className="MainContainer">
-      <h1 className="MainContainer__Title">Peerlist Readme Badge Generator</h1>
-      <h1 className="MainContainer__SubTitle">for README.md</h1>
+     {/* MainContainer__Title */}
+      <h1 className="text-3xl text-indigo-600">Peerlist Readme Badge Generator</h1>
+      {/* MainContainer__SubTitle */}
+      <h1 className=" text-indigo-500 my-4 font-bold">For README.md</h1>
       <div className="FormContainer">
-        <form onSubmit={onSubmit}>
-          <Input label="Name" value={formState.nameValue} setFormState={setFormState} inputId="name" isRequired />
+        <form onSubmit={onSubmit} autocomplete="off" >
+          <Input label="Name" value={formState.nameValue} setFormState={setFormState} inputId="name" isRequired   />
           <CustomSelect
             label="Style"
             placeholder="Select"
@@ -69,12 +71,13 @@ function App() {
                 onChange={() => setIsChecked((prev) => !prev)}
                 className={isChecked ? "checked" : ""}
               />
-              <span>Link to Peerlist profile</span>
+              <span className="mx-4">Link to Peerlist profile</span>
             </label>
           </div>
           {isChecked && <InputUsername value={formState.peerlistUsername} setFormState={setFormState} />}
           <div className="FormContainer__ButtonWrapper">
-            <button className="FormContainer__Button">Generate</button>
+            {/* FormContainer__Button */}
+            <button className="bg-indigo-700 text-white w-full rounded-lg text-center h-10 my-10 hover:bg-indigo-500 text-lg cursor-pointer">Generate</button>
           </div>
         </form>
       </div>

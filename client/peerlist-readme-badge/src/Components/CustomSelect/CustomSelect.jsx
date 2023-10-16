@@ -7,6 +7,7 @@ const customTheme = (theme) => ({
     ...theme.colors,
     primary25: "black",
     primary: "#a1a5a8",
+    cursor:"pointer"
   },
 });
 
@@ -39,8 +40,10 @@ const customStyles = {
 
 const CustomSelect = ({ options, label, placeholder, onChange }) => {
   return (
-    <div className="SelectContainer">
-      <label className="SelectContainer__Label">{label}</label>
+    //  Your Class Name "SelectContainer"
+    <div className="border-solid rounded-lg border-4  border-indigo-500/100 my-5">
+      {/*  CSS Class name SelectContainer__Label */}
+      <label className="font-extralight text-slate-400 px-2 ">{label}</label>
       <Select
         defaultValue={options[0]}
         options={options}
@@ -49,6 +52,7 @@ const CustomSelect = ({ options, label, placeholder, onChange }) => {
         isSearchable={false}
         theme={customTheme}
         onChange={onChange}
+        
       />
     </div>
   );
