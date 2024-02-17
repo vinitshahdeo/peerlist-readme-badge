@@ -20,7 +20,8 @@ Peerlist is a community of working professionals focused on building a personal 
 | [Santosh Yadav](https://peerlist.io/santoshyadavdev) | ![Peerlist](https://github-readme-badge.peerlist.io/api/santoshyadavdev) |
 | [Vinit Shahdeo](https://peerlist.io/vinitshahdeo) | ![Peerlist](https://github-readme-badge.peerlist.io/api/vinitshahdeo)  |
 
-> **Warning** The author might be biased above, but you get the point! 😉
+> [!WARNING]
+> The author might be biased above, but you get the point! 😉
 
 ## :handshake: How to use?
 
